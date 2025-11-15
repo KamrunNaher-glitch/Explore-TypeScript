@@ -42,3 +42,6 @@ const result1 = getPropertyFromObj(user,"name");
 
 const result2 = getPropertyFromObj(product,"brand")
 
+
+
+

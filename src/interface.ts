@@ -2,14 +2,15 @@ type User = {
     name: string ;
     age: number;   
 }
+type Role = {
+    role : "admin" | "user"
+}
+
+
 // interface : object type: array, object , function
 interface IUser{
     name: string;
     age: number;
-}
-
-type Role = {
-    role : "admin" | "user"
 }
 
 type UserWithRole = User & Role ;
